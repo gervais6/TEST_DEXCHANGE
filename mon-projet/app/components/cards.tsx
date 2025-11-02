@@ -14,7 +14,7 @@ export default function page() {
 
 
 <div className="flex flex-wrap gap-4 ">
-<div className="sm:w-[320px] bg-white py-5 rounded-[15px] flex items-center justify-between px-4">
+<div className="w-full sm:w-[320px] bg-white py-5 rounded-[15px] flex items-center justify-between px-4">
   <span className="text-gray-800 font-medium">01</span>
   <div className="bg-teal-400 p-2 md:p-3 rounded-[15px] md:rounded-[17px]">
   <Image 
