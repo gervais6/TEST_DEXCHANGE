@@ -18,7 +18,6 @@ export default function Page() {
 
         <main className="flex-1  bg-[#F8F9FA]">
              <Cards/>
-            <Table />
 
         </main>
       </div>
