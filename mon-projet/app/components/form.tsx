@@ -81,7 +81,7 @@ export default function LoginForm() {
           </button>
           <div className="mt-2 text-center w-full text-gray-700 text-[15px] mb-9">
             Already have an account?{" "}
-            <a href="/login" className="text-teal-500 font-medium hover:underline ">
+            <a href="/login" className="text-teal-500  font-medium hover:underline ">
               Sign in
             </a>
           </div>

@@ -1,19 +1,27 @@
-
 "use client";
-import Navbar from "../components/navbar";
-import Card from "../components/form";
+
+import Siderbar from "../components/siderbar";
+import Navbars from "../components/navbars";
+import Cards from "../components/cards";
+import Table from "../components/table";
+
 
 import React from 'react'
 
-export default function page() {
+export default function Page() {
   return (
-    <div className=' flex flex-col  min-h-screen text-center bg-white'>
+    <div className='flex min-h-screen  bg-white'>
+      <Siderbar/>
+      
+      <div className='flex-1 flex  flex-col'>
+            <Navbars/>
 
-   
+        <main className="flex-1  bg-[#F8F9FA]">
+             <Cards/>
+            <Table />
 
- </div>
-  
-
+        </main>
+      </div>
+    </div>
   )
 }
-
