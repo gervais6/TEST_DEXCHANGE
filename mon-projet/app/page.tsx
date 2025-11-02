@@ -5,7 +5,7 @@ import React from 'react'
 export default function Home() {
   return (
     
-    <div className=' flex flex-col  min-h-screen text-center  bg-sky-400'>
+    <div className=' flex flex-col  text-center  bg-sky-400'>
         
   <h1 className=' titre mb-10  text-6xl'>Bienvenue sur mon projet de test</h1>  
   <div> <Link href='/register' className='text-3xl mb-10 block '>Aller vers la page Register</Link></div>

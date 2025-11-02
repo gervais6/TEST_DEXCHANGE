@@ -10,7 +10,7 @@ import React from 'react'
 
 export default function Page() {
   return (
-    <div className='flex min-h-screen  bg-white'>
+    <div className='flex   bg-white'>
       <Siderbar/>
       
       <div className='flex-1 flex  flex-col'>
